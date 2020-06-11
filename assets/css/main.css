@@ -2420,5 +2420,9 @@ div[data-relative="yes"] {
 	height: 35px;
 	line-height: 38px;
   }
+body.fix2,
+body.fix3 {
+	overflow: hidden;
+}
 /* common css end */
 

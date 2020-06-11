@@ -9,6 +9,9 @@
             $('#profile-sub').removeClass('show');
             $('#notification-sub').removeClass('show');
             $('.user-part .bell').removeClass('white');
+            $('body').toggleClass('fix2');
+            $('body').removeClass('fix3');
+            $('body').removeClass('fix');
         })
 
         
@@ -19,6 +22,9 @@
             $('#notification-sub').removeClass('show');
             $('.toggle-menu').removeClass('white');
             $('.user-part .bell').removeClass('white');
+            $('body').toggleClass('fix3');
+            $('body').removeClass('fix2');
+            $('body').removeClass('fix');
         })
 
         $('.user-part .bell').on('click', function (e) {
@@ -28,11 +34,16 @@
             $('#profile-sub').removeClass('show');
             $('.toggle-menu').removeClass('white');
             $('#main-menu').slideUp();
-            $('body').addClass('fix');
+            $('body').toggleClass('fix');
+            $('body').removeClass('fix2');
+            $('body').removeClass('fix3');
         })
         $('.close-sub').on('click', function (e) {
             $('#notification-sub').removeClass('show');
             $('.user-part .bell').removeClass('white');
+            $('body').removeClass('fix');
+            $('body').removeClass('fix2');
+            $('body').removeClass('fix3');
         })
 
         $('.personal-menu-trigger').on('click', function (e) {
