@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!------ Required meta tags ------>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!------- Title ------->
+    <title>Document</title>
+
+    <!------- Favicon Icon ------->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/png">
+
+    <!------- Bootstrap css ------->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!------- Fontawesome css ------->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!------- Plugins css ------->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!------- Utilities css ------->
+    <link rel="stylesheet" href="assets/css/Util.css">
+
+    <!------- Main css ------->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!------- Responsive css ------->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+</head>
+
+<body>
+
+    <!-- Modal for Add to group -->
+    <div class="modal fade" id="example2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog style-1 max-800" role="document">
+        <div class="modal-content">
+            <button type="button" class="close-m" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-c-wrapper">
+                <div class="c-header">
+                    <h4>Select the gorup to add in</h4>
+                </div>
+                <div class="c-modal-content-wrapper">
+                    <div class="job-group-wrap groupp">
+                        <div class="job-holder-single groupp">
+                            <div class="job-holder-img">
+                                <img src="assets/img/user-2.png" alt="">
+                            </div>
+                            <div class="job-h-content">
+                                <p>Group name <span>Short description</span></p>
+                            </div>
+                        </div> <!-- ./job-holder-single.groupp -->
+                        <div class="job-holder-single groupp">
+                            <div class="job-holder-img">
+                                <img src="assets/img/user-2.png" alt="">
+                            </div>
+                            <div class="job-h-content">
+                                <p>Group name <span>Short description</span></p>
+                            </div>
+                        </div> <!-- ./job-holder-single.groupp -->
+                        <div class="job-holder-single groupp">
+                            <div class="job-holder-img">
+                                <img src="assets/img/user-2.png" alt="">
+                            </div>
+                            <div class="job-h-content">
+                                <p>Group name <span>Short description</span></p>
+                            </div>
+                        </div> <!-- ./job-holder-single.groupp -->
+                        <div class="job-holder-single groupp">
+                            <div class="job-holder-img">
+                                <img src="assets/img/user-2.png" alt="">
+                            </div>
+                            <div class="job-h-content">
+                                <p>Group name <span>Short description</span></p>
+                            </div>
+                        </div> <!-- ./job-holder-single.groupp -->
+                        <div class="job-holder-single groupp">
+                            <div class="job-holder-img">
+                                <img src="assets/img/user-2.png" alt="">
+                            </div>
+                            <div class="job-h-content">
+                                <p>Group name <span>Short description</span></p>
+                            </div>
+                        </div> <!-- ./job-holder-single.groupp -->
+                        <div class="job-holder-single groupp">
+                            <div class="job-holder-img">
+                                <img src="assets/img/user-2.png" alt="">
+                            </div>
+                            <div class="job-h-content">
+                                <p>Group name <span>Short description</span></p>
+                            </div>
+                        </div> <!-- ./job-holder-single.groupp -->
+                    </div> <!-- job-holder-wrap.groupp -->
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+      <!-- Modal for Delete Contact -->
+      <div class="modal fade" id="example3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog style-1 max-800" role="document">
+        <div class="modal-content">
+            <button type="button" class="close-m" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-c-wrapper">
+                <div class="c-header">
+                    <h4>Select the gorup to add in</h4>
+                </div>
+                <div class="c-modal-content-wrapper">
+                    <div class="job-group-wrap groupp">
+                        <div class="job-holder-single groupp">
+                            <div class="job-holder-img">
+                                <img src="assets/img/user-2.png" alt="">
+                            </div>
+                            <div class="job-h-content">
+                                <p>Group name <span>Short description</span></p>
+                            </div>
+
+                            <div class="delete-wrap">
+                                <a href="#" class="rd-btn">View Profile</a>
+                                <a href="#" class="delete">Delete</a>
+                            </div>
+                        </div> <!-- ./job-holder-single.groupp -->
+                        <div class="job-holder-single groupp">
+                            <div class="job-holder-img">
+                                <img src="assets/img/user-2.png" alt="">
+                            </div>
+                            <div class="job-h-content">
+                                <p>Group name <span>Short description</span></p>
+                            </div>
+
+                            <div class="delete-wrap">
+                                <a href="#" class="rd-btn">View Profile</a>
+                                <a href="#" class="delete">Delete</a>
+                            </div>
+                        </div> <!-- ./job-holder-single.groupp -->
+                        <div class="job-holder-single groupp">
+                            <div class="job-holder-img">
+                                <img src="assets/img/user-2.png" alt="">
+                            </div>
+                            <div class="job-h-content">
+                                <p>Group name <span>Short description</span></p>
+                            </div>
+
+                            <div class="delete-wrap">
+                                <a href="#" class="rd-btn">View Profile</a>
+                                <a href="#" class="delete">Delete</a>
+                            </div>
+                        </div> <!-- ./job-holder-single.groupp -->
+                        <div class="job-holder-single groupp">
+                            <div class="job-holder-img">
+                                <img src="assets/img/user-2.png" alt="">
+                            </div>
+                            <div class="job-h-content">
+                                <p>Group name <span>Short description</span></p>
+                            </div>
+
+                            <div class="delete-wrap">
+                                <a href="#" class="rd-btn">View Profile</a>
+                                <a href="#" class="delete">Delete</a>
+                            </div>
+                        </div> <!-- ./job-holder-single.groupp -->
+                        <div class="job-holder-single groupp">
+                            <div class="job-holder-img">
+                                <img src="assets/img/user-2.png" alt="">
+                            </div>
+                            <div class="job-h-content">
+                                <p>Group name <span>Short description</span></p>
+                            </div>
+
+                            <div class="delete-wrap">
+                                <a href="#" class="rd-btn">View Profile</a>
+                                <a href="#" class="delete">Delete</a>
+                            </div>
+                        </div> <!-- ./job-holder-single.groupp -->
+                    </div> <!-- job-holder-wrap.groupp -->
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="page-flex-wrp">
+        <div class="page-top-zone">
+            <header class="header-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3 col-6">
+                            <div class="header-left">
+                                <a href="#" class="logo"><img src="assets/img/Logo.svg" alt=""></a>
+                                <ul class="h-left-menu">
+                                    <li class="active"><a href="#">
+                                        <svg width="23" height="60" viewBox="0 0 23 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.2495 15C15.3916 15 18.7495 11.6421 18.7495 7.5C18.7495 3.35786 15.3916 0 11.2495 0C7.10738 0 3.74951 3.35786 3.74951 7.5C3.74951 11.6421 7.10738 15 11.2495 15Z" fill="white"/>
+                                            <path d="M22.4848 35.385L20.7823 22.125C20.5911 20.2012 18.9861 18.75 17.0548 18.75H14.9998C14.5011 18.75 14.0248 18.9487 13.6723 19.2975L11.2498 21.72L8.82733 19.2975C8.47483 18.9487 7.99858 18.75 7.49983 18.75H5.44858C3.51358 18.75 1.90858 20.2013 1.72108 22.0763L0.0148263 35.3888C-0.0526737 35.9213 0.112326 36.4613 0.468576 36.8625C0.824826 37.2675 1.33483 37.5 1.87483 37.5H3.89983L5.46733 56.625C5.65483 58.545 7.26358 60 9.19858 60H13.3048C15.2398 60 16.8448 58.545 17.0398 56.5912L18.6036 37.5H20.6248C21.1648 37.5 21.6748 37.2675 22.0311 36.8625C22.3911 36.4613 22.5561 35.9212 22.4848 35.385Z" fill="white"/>
+                                            </svg>
+                                            
+                                        <span>Induvidual</span>
+                                    </a></li>
+                                    <li><a href="#">
+                                        <svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M30 15C34.1421 15 37.5 11.6421 37.5 7.5C37.5 3.35786 34.1421 0 30 0C25.8579 0 22.5 3.35786 22.5 7.5C22.5 11.6421 25.8579 15 30 15Z" fill="#30628F"/>
+                                            <path d="M41.2353 35.385L39.5328 22.125C39.3416 20.2012 37.7366 18.75 35.8053 18.75H33.7503C33.2516 18.75 32.7753 18.9487 32.4228 19.2975L30.0003 21.72L27.5778 19.2975C27.2253 18.9487 26.7491 18.75 26.2503 18.75H24.1991C22.2641 18.75 20.6591 20.2013 20.4716 22.0763L18.7653 35.3888C18.6978 35.9213 18.8628 36.4613 19.2191 36.8625C19.5753 37.2675 20.0853 37.5 20.6253 37.5H22.6503L24.2178 56.625C24.4053 58.545 26.0141 60 27.9491 60H32.0553C33.9903 60 35.5953 58.545 35.7903 56.5912L37.3541 37.5H39.3753C39.9153 37.5 40.4253 37.2675 40.7816 36.8625C41.1416 36.4613 41.3066 35.9212 41.2353 35.385Z" fill="#30628F"/>
+                                            <path d="M48.75 15C52.8921 15 56.25 11.6421 56.25 7.5C56.25 3.35786 52.8921 0 48.75 0C44.6079 0 41.25 3.35786 41.25 7.5C41.25 11.6421 44.6079 15 48.75 15Z" fill="#30628F"/>
+                                            <path d="M11.25 0C7.11375 0 3.75 3.36375 3.75 7.5C3.75 11.6362 7.11375 15 11.25 15C15.3825 15 18.75 11.6362 18.75 7.5C18.75 3.36375 15.3825 0 11.25 0Z" fill="#30628F"/>
+                                            <path d="M59.9853 35.385L58.2828 22.1288C58.0916 20.2013 56.4903 18.75 54.5553 18.75H52.5003C52.0016 18.75 51.5253 18.9487 51.1728 19.2975L48.7503 21.72L46.3278 19.2975C45.9753 18.9487 45.4991 18.75 45.0041 18.75H42.9491C42.7166 18.75 42.5066 18.8325 42.2853 18.8737C42.7691 19.7287 43.1478 20.655 43.2603 21.6937L44.9591 34.9088C45.1691 36.5175 44.6666 38.1375 43.5866 39.3562C43.0766 39.9412 42.4241 40.3538 41.7266 40.6763L42.9716 52.875C43.1628 54.7987 44.7678 56.25 46.7028 56.25H50.8091C52.7441 56.25 54.3491 54.795 54.5441 52.8412L56.1041 37.5H58.1253C58.6653 37.5 59.1753 37.2675 59.5316 36.8625C59.8916 36.4613 60.0566 35.9212 59.9853 35.385Z" fill="#30628F"/>
+                                            <path d="M16.4024 39.3375C15.3374 38.1337 14.8424 36.5175 15.0449 34.9163L16.7512 21.6C16.8487 20.6025 17.2162 19.7025 17.6849 18.87C17.4749 18.8325 17.2762 18.75 17.0549 18.75H14.9999C14.5012 18.75 14.0249 18.9487 13.6724 19.2975L11.2499 21.72L8.82744 19.2975C8.47494 18.9487 7.99869 18.75 7.50369 18.75H5.44858C3.51358 18.75 1.90858 20.2013 1.72108 22.0763L0.0148263 35.3888C-0.0526737 35.9213 0.112326 36.4613 0.468576 36.8625C0.824826 37.2675 1.33858 37.5 1.87483 37.5H3.89983L5.46733 52.875C5.65483 54.795 7.26358 56.25 9.19858 56.25H13.3048C15.2398 56.25 16.8448 54.795 17.0398 52.8412L18.2848 40.6725C17.5837 40.3462 16.9274 39.93 16.4024 39.3375Z" fill="#30628F"/>
+                                            </svg>
+                                            
+                                        <span>Group</span>
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-none d-md-block">
+                            <div class="header-middle-wrap">
+                                <div class="search-wrap">
+                                    <div class="input-inside">
+                                        <input type="text" placeholder="Search">
+                                        <span class="sc-icon"><img src="assets/img/search.svg" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="header-right">
+                                <ul class="user-part">
+                                    <li><a href="#" class="bell">
+                                        <span class="u-img"><img src="assets/img/bell.svg" alt=""></span>
+                                        <span>Notifications</span>
+                                    </a>
+                                    <ul class="submenu" id="notification-sub">
+                                        <li>
+                                            <div class="profile-sub-wrap notification">
+                                               <div class="notification-scroll-wrap">
+                                                   <span class="close-sub"><img src="assets/img/back.svg" alt=""></span>
+                                                    <ul class="g-link">
+                                                        <li class="active"><a href="#">Individгal</a></li>
+                                                        <li><a href="#">Group</a></li>
+                                                    </ul>
+                                                    <div class="under-link-content">
+                                                        <div class="single-in-card">
+                                                            <span class="del-card"><i class="fal fa-times"></i></span>
+                                                            <div class="in-card-img">
+                                                                <img src="assets/img/user-2.png" alt="">
+                                                            </div>
+                                                            <div class="in-card-content-wrap">
+                                                                <h4>Charles Travolta</h4>
+                                                                <p>Added you to his contacts</p>
+                                                            </div>
+                                                        </div> <!-- ./single-in-card -->
+                                                        <div class="single-in-card">
+                                                            <span class="del-card"><i class="fal fa-times"></i></span>
+                                                            <div class="in-card-img">
+                                                                <img src="assets/img/user-2.png" alt="">
+                                                            </div>
+                                                            <div class="in-card-content-wrap">
+                                                                <h4>Charles Travolta</h4>
+                                                                <p>Added you to his contacts</p>
+                                                            </div>
+                                                        </div> <!-- ./single-in-card -->
+                                                        <div class="single-in-card">
+                                                            <span class="del-card"><i class="fal fa-times"></i></span>
+                                                            <div class="in-card-img">
+                                                                <img src="assets/img/user-2.png" alt="">
+                                                            </div>
+                                                            <div class="in-card-content-wrap">
+                                                                <h4>Charles Travolta</h4>
+                                                                <p>Added you to his contacts</p>
+                                                            </div>
+                                                        </div> <!-- ./single-in-card -->
+                                                        <div class="single-in-card">
+                                                            <span class="del-card"><i class="fal fa-times"></i></span>
+                                                            <div class="in-card-img">
+                                                                <img src="assets/img/user-2.png" alt="">
+                                                            </div>
+                                                            <div class="in-card-content-wrap">
+                                                                <h4>Charles Travolta</h4>
+                                                                <p>Added you to his contacts</p>
+                                                            </div>
+                                                        </div> <!-- ./single-in-card -->
+                                                        <div class="single-in-card">
+                                                            <span class="del-card"><i class="fal fa-times"></i></span>
+                                                            <div class="in-card-img">
+                                                                <img src="assets/img/user-2.png" alt="">
+                                                            </div>
+                                                            <div class="in-card-content-wrap">
+                                                                <h4>Charles Travolta</h4>
+                                                                <p>Added you to his contacts</p>
+                                                            </div>
+                                                        </div> <!-- ./single-in-card -->
+                                                        <div class="single-in-card">
+                                                            <span class="del-card"><i class="fal fa-times"></i></span>
+                                                            <div class="in-card-img">
+                                                                <img src="assets/img/user-2.png" alt="">
+                                                            </div>
+                                                            <div class="in-card-content-wrap">
+                                                                <h4>Charles Travolta</h4>
+                                                                <p>Added you to his contacts</p>
+                                                            </div>
+                                                        </div> <!-- ./single-in-card -->
+                                                        <div class="single-in-card">
+                                                            <span class="del-card"><i class="fal fa-times"></i></span>
+                                                            <div class="in-card-img">
+                                                                <img src="assets/img/user-2.png" alt="">
+                                                            </div>
+                                                            <div class="in-card-content-wrap">
+                                                                <h4>Charles Travolta</h4>
+                                                                <p>Added you to his contacts</p>
+                                                            </div>
+                                                        </div> <!-- ./single-in-card -->
+                                                        <div class="single-in-card">
+                                                            <span class="del-card"><i class="fal fa-times"></i></span>
+                                                            <div class="in-card-img">
+                                                                <img src="assets/img/user-2.png" alt="">
+                                                            </div>
+                                                            <div class="in-card-content-wrap">
+                                                                <h4>Charles Travolta</h4>
+                                                                <p>Added you to his contacts</p>
+                                                            </div>
+                                                        </div> <!-- ./single-in-card -->
+                                                        <div class="single-in-card">
+                                                            <span class="del-card"><i class="fal fa-times"></i></span>
+                                                            <div class="in-card-img">
+                                                                <img src="assets/img/user-2.png" alt="">
+                                                            </div>
+                                                            <div class="in-card-content-wrap">
+                                                                <h4>Charles Travolta</h4>
+                                                                <p>Added you to his contacts</p>
+                                                            </div>
+                                                        </div> <!-- ./single-in-card -->
+                                                        <div class="single-in-card">
+                                                            <span class="del-card"><i class="fal fa-times"></i></span>
+                                                            <div class="in-card-img">
+                                                                <img src="assets/img/user-2.png" alt="">
+                                                            </div>
+                                                            <div class="in-card-content-wrap">
+                                                                <h4>Charles Travolta</h4>
+                                                                <p>Added you to his contacts</p>
+                                                            </div>
+                                                        </div> <!-- ./single-in-card -->
+                                                    </div>
+                                               </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                    <li><a href="#" class="user">
+                                        <span class="u-img"><img src="assets/img/user.png" alt=""></span>
+                                        <span>Profile</span>
+                                    </a>
+                                    <ul class="submenu" id="profile-sub">
+                                        <li>
+                                            <div class="profile-sub-wrap">
+                                                <div class="group-item-wrap in-sub">
+                                                    <div class="group-img-part">
+                                                        <img src="assets/img/user-2.png" alt="">
+                                                    </div>
+                                                    <div class="group-content-part in-sub">
+                                                        <h4>Name Last Name</h4>
+                                                        <div class="job-flex-wrap">
+                                                            <p>You have</p>
+                                                            <span><img src="assets/img/job-2.svg" alt=""> 140</span>
+                                                        </div>
+                                                        <a href="#" class="rd-btn">My profile</a>
+                                                        <a href="#" class="subscription-info">Subscribtion info</a>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="signOut">Sign Out</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                    <li><a href="#" class="toggle-menu">
+                                       <span class="u-img"> <img src="assets/img/menu-bar.svg" alt=""></span>
+                                        <span>Menu</span>
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 d-md-none d-lg-none d-xl-none">
+                            <div class="header-middle-wrap">
+                                <div class="search-wrap">
+                                    <div class="input-inside">
+                                        <input type="text" placeholder="Search">
+                                        <span class="sc-icon"><img src="assets/img/search.svg" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="main-menu">
+                    <ul class="main-menu">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Subscriptions</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">My profile</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <main>
+                <div class="profile-edit-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-9">
+
+                                <!-- Responsive Purpose MarkUp Start  -->
+                                <div class="personal-m-menu-wrap d-lg-none d-xl-none">
+                                    <a href="#" class="personal-menu-trigger"><img src="assets/img/down-angle.svg" alt=""></a>
+                                    <ul class="personal-menu">
+                                        <li class="active"><a href="#">Personal information</a></li>
+                                        <li><a href="#">Company information</a></li>
+                                        <li><a href="#">Contacts</a></li>
+                                        <li><a href="#">Settings</a></li>
+                                    </ul>
+                                </div> <!-- ./personal-m-menu-wrap -->
+                                <!-- Responsive Purpose MarkUp End -->
+
+                                <div class="profile-edit-main-wrap">
+                                    <div class="profile-banner-wrap">
+                                        <div class="profile-banner"></div>
+                                        <div class="profile-rw">
+                                            <div class="profile-lf">
+                                                <div class="pf-img">
+                                                    <img src="assets/img/user-2.png" alt="">
+                                                    <span class="qr">QR</span>
+                                                </div>
+                                                <div class="pf-name">
+                                                    <h4>Nane Last name <span class="edit"><img src="assets/img/Edit.svg" alt=""></span></h4>
+                                                    <span class="jb-title">Job title cince 2000</span>
+                                                </div>
+                                            </div>
+                                            <div class="profile-lr">
+                                                <div class="adding-and-contact-btn">
+
+
+                                                     
+
+
+                                                    <a href="#" class="rd-btn" data-toggle="modal" data-target="#example2">Add to group</a>
+                                                    <a href="#" class="rd-btn style-2" data-toggle="modal" data-target="#example3">Delete contact</a>
+                                                </div>
+                                            </div>
+                                        </div> <!-- ./profile-rw -->
+                                        <div class="message-wrap">
+                                            <div class="input-inside style-2">
+                                                <label for="">Message</label>
+                                               <div class="text-description">
+                                                   <p>Text description</p>
+                                               </div>
+                                               <label for="">Leave a note</label>
+                                              <div class="text-description leave-none">
+                                                  <div class="input-inside style-3">
+                                                      <input type="text" >
+                                                  </div>
+                                                  <a href="#" class="save-btn">Save</a>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- ./profile-banner-wrap -->
+
+                                    <div class="cmn-rw">
+                                        <div class="profile-lf two">
+                                            <div class="pf-img">
+                                                <img src="assets/img/company-logo.png" alt="">
+                                            </div>
+                                            <div class="pf-name">
+                                                <h4>Company`s name <span class="edit two"><img src="assets/img/Edit.svg" alt=""></span></h4>
+                                                <span class="jb-title">Company`s description</span>
+                                                <span class="location">Location</span>
+                                            </div>
+                                        </div>
+                                    </div> <!-- .cmn-rw -->
+
+                                    <div class="cmn-rw">
+                                        <div class="info-list-wrap">
+                                            <h4>Contacts <span class="edit two"><img src="assets/img/Edit.svg" alt=""></span></h4>
+                                            <div class="info-g-wrap">
+                                                <ul class="info-list">
+                                                    <li><span>Email</span> ffffff@gmail.com</li>
+                                                    <li><span>Phone</span> +1 00 000 00 00</li>
+                                                    <li><span>Fax </span>+1 0 00 00 00 000</li>
+                                                    <li>www.mywebsite.com</li>
+                                                </ul>
+                                                <ul class="info-list">
+                                                    <li>Link to <a href="#"><img src="assets/img/ln-1.png" alt=""></a></li>
+                                                    <li>Link to <a href="#"><img src="assets/img/ln-2.png" alt=""></a></li>
+                                                </ul>
+                                                <ul class="info-list">
+                                                   <li><span>City</span>Kharkiv</li>
+                                                   <li><span>State</span>Kharkiv</li>
+                                                   <li><span>Country</span>Kharkiv</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> <!-- .cmn-rw -->
+                                </div>
+                            </div>
+                            <div class="col-lg-3 d-none d-lg-block">
+                                <ul class="personal-menu">
+                                    <li class="active"><a href="#">Personal information</a></li>
+                                    <li><a href="#">Company information</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                    <li><a href="#">Settings</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- ./profile-edit-area -->
+            </main>
+        </div> <!-- ./page-top-zone -->
+    </div>
+    <!------- jquery js ------->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!------- Bootstrap js ------->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!------- Plugins js ------->
+    <!-- <script src="assets/js/jquery.nicescroll.min.js"></script> -->
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!------- Utilities Js ------->
+    <script src="assets/js/Util.js"></script>
+    
+    <!------- Main Js ------->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
